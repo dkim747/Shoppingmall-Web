@@ -1,0 +1,19 @@
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+header nav h1 {
+    margin-left: 20px;
+    font-size: 45px;
+    flex-grow: 1; /* Allows the title to take up available space */
+}
+  
+header nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
